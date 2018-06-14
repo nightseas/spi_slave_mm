@@ -1,0 +1,11 @@
+# Backup Files
+*.bak
+
+# Compiled Object files
+*.o
+*.obj
+
+# Database & output folders
+db/*
+incremental_db/*
+output_files/*
