@@ -86,10 +86,10 @@ begin
 			case(mm_s_addr_i)				
 				REG_ADDR_INT_CLR:
 					begin
-					int_clr_reg[0] <= mm_s_wdata_i[0] ? 1'b0 : int_clr_reg[0];	
-					int_clr_reg[1] <= mm_s_wdata_i[1] ? 1'b0 : int_clr_reg[1];	
-					int_clr_reg[2] <= mm_s_wdata_i[2] ? 1'b0 : int_clr_reg[2];	
-					int_clr_reg[3] <= mm_s_wdata_i[3] ? 1'b0 : int_clr_reg[3];
+						int_clr_reg[0] <= mm_s_wdata_i[0] ? 1'b1 : int_clr_reg[0];	
+						int_clr_reg[1] <= mm_s_wdata_i[1] ? 1'b1 : int_clr_reg[1];	
+						int_clr_reg[2] <= mm_s_wdata_i[2] ? 1'b1 : int_clr_reg[2];	
+						int_clr_reg[3] <= mm_s_wdata_i[3] ? 1'b1 : int_clr_reg[3];
 					end					
 				REG_ADDR_INT_MSK:
 					begin
