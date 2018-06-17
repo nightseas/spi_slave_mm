@@ -66,9 +66,9 @@ end
 /***************************************************
  Wire Connections
 ***************************************************/
-wire clk_16hz_o = clk_cnt[20];  //~11.2Hz
-wire clk_8hz_o = clk_cnt[21]; 	//~5.6Hz
-wire clk_1hz_o = clk_cnt[24]; 	//~0.7Hz
-wire clk_128hz_o = clk_cnt[12];	//~89.6Hz
+wire clk_16hz_o = clk_cnt[19];  //~11.2Hz
+wire clk_8hz_o = clk_cnt[20]; 	//~5.6Hz
+wire clk_1hz_o = clk_cnt[23]; 	//~0.7Hz
+wire clk_128hz_o = clk_cnt[11];	//~89.6Hz
 
 endmodule
